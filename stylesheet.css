@@ -1,4 +1,5 @@
-*{box-sizing:border-box;}
+*{box-sizing: border-box;}
+
 body {
   margin: 0;
   padding:0;
@@ -87,7 +88,7 @@ h3{
   width:80%;
   letter-spacing: 5px;
   color:black;
-  height:300px;
+  height:350px;
   padding:15px 0px 50px 50px;
   margin:0;
   float:left;
@@ -130,7 +131,7 @@ h3{
   color:black;
   height:200px;
   padding:15px 0px 50px 50px;
-  margin-top:40px;
+  margin-top:200px;
   float:left;
 
 }
@@ -150,11 +151,13 @@ h3{
 .service{
   display:inline-block;
   float:left;
-  width:40%;
-  margin:30px 30px;
-  padding:20px;
+  width:45%;
+  font-size:15px;
+  margin:20px 20px;
+  padding:10px;
   background-color: #FFFFF0;
 }
+
 
 .Company{
   display:inline-block;
@@ -165,7 +168,7 @@ h3{
   color:black;
   height:300px;
   padding:15px 0px 50px 50px;
-  margin-top:600px;
+  margin-top:700px;
 }
 
 .Company h3{
@@ -246,4 +249,5 @@ footer{
 
 
 }
+
 
