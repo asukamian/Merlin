@@ -197,6 +197,19 @@ h3{
 
 }
 
+.contact h2{
+  font-size:45px;
+  padding:50px auto;
+  margin:0px;
+}
+
+.contact h3{
+  font-size:20px;
+  padding:10px 10px 0px 10px;
+  margin:0px;
+
+}
+
 .container p{
   font-size:20px;
   color:white;
