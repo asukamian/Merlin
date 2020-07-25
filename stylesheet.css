@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding:0;
+  background: #c02425; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c02425, #f0cb35); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c02425, #f0cb35); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width:cover;
+  font-family: }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+
+header{
+  width:cover;
+  padding:30px 4% 10px;
+  top:0px;
+  display:flex; /*横並び*/
+  background-color: transparent;
+  align-items: center;
+  position:fixed;
+  top:0px;
+  left:0;
+  right:0;
+  z-index:10;
+
+}
+
+h1 {
+  margin:0;
+  padding:0;
+  font-size:20px;
+}
+
+.pc-nav ul{
+  list-style:none;
+  margin:0;
+  display:flex;
+  text-align:right;
+  justify-content: flex-end;
+
+}
+
+.pc-nav li{
+  display:table-cell;
+  margin: 0 0 0 50px;
+  font-size:14px;
+}
+
+.pc-nav{
+  width:800px;
+margin:0 0 0 auto;
+}
+
+li a:hover{
+  background-color:rgba(255,165,0, 0.5);
+}
+
+.main-visual{
+  padding:180px 0 150px 50px;
+  color:white;
+}
+
+.main-visual h2{
+  letter-spacing: 5px;
+
+  font-size:45px;
+  opacity:0.7;
+
+}
+
+h3{
+  opacity:0.7;
+}
+
+.next-visual{
+  background-color: white;
+  opacity:0.7;
+  width:1000px;
+  letter-spacing: 5px;
+  color:black;
+  height:300px;
+  padding:15px 0px 50px 50px;
+  margin:0;
+  float:left;
+}
+.next-visual h4{
+  font-size:45px;
+  padding:10px;
+  margin:0;
+}
+
+.next-visual h5{
+  font-size:20px;
+  padding:10px 10px 0px 10px;
+  margin:0px;
+}
+
+.next-visual p{
+  display:inline-block;
+  float:left;
+  font-size:20px;
+  width:40%;
+  height:70%;
+  margin-right:25%;
+  margin-left:35%;
+  margin-top:0%;
+  margin-bottom:30%;
+  color:black;
+  padding:0;
+}
+
+
+
+
+.Services{
+  display:inline-block;
+  background-color: white;
+  opacity:0.7;
+  width:1000px;
+  letter-spacing: 5px;
+  color:black;
+  height:200px;
+  padding:15px 0px 50px 50px;
+  margin-top:40px;
+  float:left;
+
+}
+
+.Services h5{
+  font-size:45px;
+  padding:50px auto;
+  margin:0px;
+}
+
+.Services h6{
+  font-size:20px;
+  padding:10px 10px 0px 10px;
+  margin:0px;
+}
+
+.service{
+  display:inline-block;
+  float:left;
+  width:40%;
+  margin:30px 30px;
+  padding:20px;
+  background-color: #FFFFF0;
+}
+
+.Company{
+  display:inline-block;
+  background-color: white;
+  opacity:0.7;
+  width:1000px;
+  letter-spacing: 5px;
+  color:black;
+  height:300px;
+  padding:15px 0px 50px 50px;
+  margin-top:600px;
+}
+
+.Company h3{
+  font-size:45px;
+  padding:50px auto;
+  margin:0px;
+}
+
+.Company h4{
+  font-size:20px;
+  padding:10px 10px 0px 10px;
+  margin:0px;
+
+}
+
+.Company nav{
+
+}
+
+.contact{
+
+  display:inline-block;
+  background-color: white;
+  opacity:0.7;
+  width:1000px;
+  letter-spacing: 5px;
+  color:black;
+  height:700px;
+  padding:15px 0px 50px 50px;
+  margin-top:200px;
+
+}
+
+.container p{
+  font-size:20px;
+  color:white;
+  padding:0;
+  margin:0;
+}
+
+input, textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border: 1px solid black;
+
+}
+.contactsubmit{
+  background-color:#dee7ec;
+  color:black;
+}
+
+.contactsubimt:hover{
+  background-color: #C0C0C0;
+}
+
+footer{
+  padding-top:30px;
+  margin-bottom:0px;
+  padding-bottom:0;
+
+
+}
