@@ -1,0 +1,30 @@
+@media(max-width:670px) {
+
+.next-visual{
+width:100%;
+
+}
+
+.Services{
+  width:100%;
+}
+
+.service{
+  width:100%;
+}
+
+.Company{
+  width:100%;
+}
+
+.contact{
+  width:100%;
+}
+
+ input,textarea{
+   width:100%;
+ }
+ footer{ text-align:center;
+ }
+
+}
