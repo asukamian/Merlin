@@ -6,9 +6,29 @@
      <title>Merlin</title>
      <link rel="stylesheet" href="stylesheet.css">
      <link rel="stylesheet" href="responsive.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
      <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+     <script>
+      $(function(){
+        // #で始まるリンクをクリックしたら実行されます
+        $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒で記述
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+    </script>
    </head>
    <body>
+
+
+
+
+     </div>
      <header>
        <h1><a href="#">Merin,LLC</a></h1>
        <nav class="pc-nav">
@@ -20,6 +40,8 @@
         </ul>
 
       </nav>
+
+
 
 
      </header>
@@ -45,12 +67,12 @@
        </div>
 
 
-       <div class="service">
+       <div class="service1">
          <h1>Asia✖️Production</h1>
          <p>Asian movies are getting more and more attention everyday. Merlin will be assisting Asian countries to get their movies and televisions to the world.</p>
          <p>アジア映画は世界で着実に注目を集めています。私たちは日本を出発点として、アジア各国で才能あるクリエイターの映像制作をアシストするとともに、彼らの作品を世界に発信する手助けを行います。</p>
        </div>
-       <div class="service">
+       <div class="service2">
          <h1>Technology✖️Production</h1>
          <p>Technology evolves everyday. Cameras get lighter, lighting gets more handy, and editing gets easier. So does the “process“ of filmmaking. Merlin will bring the Hollywood-standard web application and software to your production which saves you plenty of time and money.</p>
          <p>映像業界では最先端のテクノロジーによって日々、撮影機材や編集技術に変革がもたらされています。</br>Merlinは撮影の前段階であるプリプロダクションのプロセスに重点を置き、テクノロジーで時間とコストの効率化を測り、アジア全体での業界のレベルアップを図ります。また、ポストプロダクションにおける画期的な技術も導入します。</p>
@@ -107,4 +129,5 @@
     </footer>
    </body>
  </html>
+
 
