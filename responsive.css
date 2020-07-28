@@ -1,24 +1,104 @@
 @media(max-width:670px) {
 
+  .pc-nav{
+    display:none;
+
+  }
+
+  .main-visual h2{
+    font-size:5vw;
+  }
+
+  .main-visual{
+    padding:180px 10px 150px 20px;
+
+  }
+
+
 .next-visual{
 width:100%;
 
 }
 
-.Services{
+.next-visual p{
   width:100%;
+margin-left: 0;
+margin-right:0;
+/*height:70%;*/
 }
 
-.service{
-  width:100%;
+.next-visual{
+  padding:15px 10px 20px 10px;
+  /*height:40%;*/
+
 }
+
+
+.Services{
+  width:100%;
+  padding:15px 20px 50px 20px;
+
+}
+
+
+
+.service1, .service2{
+  width:100%;
+
+  margin:30px auto 0px auto;
+  padding:15px 20px 0px 20px;
+
+
+
+}
+
+.Services h5{
+  padding:10px;
+}
+
+.service1 h1{
+  font-size:4vw;
+}
+
+.service2 h1{
+  font-size:4vw;
+}
+
+.service1 p{
+  font-size:3vw;
+
+
+}
+
+
+.service2 p{
+  font-size:3vw;
+
+}
+
+
 
 .Company{
   width:100%;
+
+
+  
+  /*Height:40%;*/
+  padding-left:5px;
+
+}
+
+.Company nav{
+  width:100%;
+  /*height:80%;*/
+  font-size:10px;
+  word-wrap: break-word;
 }
 
 .contact{
   width:100%;
+  padding-left:10px;
+  padding-right:10px;
 }
 
  input,textarea{
@@ -26,5 +106,100 @@ width:100%;
  }
  footer{ text-align:center;
  }
+
+}
+
+@media(max-width:1000px){
+
+  .next-visual{
+    width:100%;
+    padding:15px 10px 20px 10px;
+    /*height:100%;*/
+
+  }
+  .next-visual p{
+
+    width:100%;
+  margin-left: 0;
+  margin-right:0;
+  /*height:70%;*/
+
+
+
+  }
+
+  .Services{
+    width:100%;
+    padding:15px 20px 50px 20px;
+
+
+  }
+  .Services h5{
+    padding:10px;
+  }
+
+
+
+  .main-visual{
+    padding:180px 0px 150px 20px;
+  }
+
+  .service1, .service2{
+    width:100%;
+
+    margin:30px auto 0 auto;
+
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:15px;
+
+
+  }
+
+  .service1 h1{
+    font-size:4vw;
+  }
+
+  .service2 h1{
+    font-size:4vw;
+  }
+
+  .service1 p{
+    font-size:3vw;
+    }
+
+  .service2 p{
+    font-size:3vw;
+  }
+
+
+
+  .Company{
+    width:100%;
+    margin-top:1300px;
+    /*Height:100%;*/
+    padding-left:5px;
+
+  }
+
+  .Company nav{
+    width:100%;
+    height:80%;
+    font-size:17px;
+  }
+
+  .contact{
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+   input,textarea{
+     width:100%;
+   }
+   footer{ text-align:center;
+   }
+
+
 
 }
